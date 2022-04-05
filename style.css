@@ -1,3 +1,7 @@
+body {
+    margin: auto;
+}
+
 .hat {
     background-color: #343A40;
 }
@@ -5,17 +9,26 @@
 .buttons {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
 }
 
 .button {
-    width: auto;
-    margin: auto;
     padding: 20px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 
 .text {
     color: #ffffff;
+}
+
+.content {
+    background-color: #E9ECEF;
+}
+
+.portfolio {
+    margin-left: 20px;
+}
+
+.header {
+    font-size: 56px;
 }
