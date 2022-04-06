@@ -11,7 +11,7 @@ body {
     flex-wrap: wrap;
 }
 
-.button {
+.button__s {
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -21,14 +21,51 @@ body {
     color: #ffffff;
 }
 
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.portfolio {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
 .content {
     background-color: #E9ECEF;
 }
 
-.portfolio {
-    margin-left: 20px;
-}
-
 .header {
     font-size: 56px;
+}
+
+.information__text {
+    width: 600px;
+    font-size: 16px;
+}
+
+.shell {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #fff;
+    background: #2799d6;
+    box-shadow: 0 4px 8px 0 rgba(39, 153, 214, 0.35);
+    cursor: pointer;
+}
+
+.shell:hover {
+    background: #7cc1e6;
+    box-shadow: 0 4px 16px 0 rgba(39, 153, 214, 0.25);
+}
+
+.shell {
+    border-radius: 4px;
+    transition: border-radius 0.5s ease-in;
+}
+
+.shell:hover {
+    border-radius: 16px;
 }
