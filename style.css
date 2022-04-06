@@ -21,6 +21,7 @@ body {
     color: #ffffff;
 }
 
+
 .data {
     display: flex;
     flex-direction: column;
@@ -75,3 +76,5 @@ body {
 .shell:hover {
     border-radius: 16px;
 }
+
+
