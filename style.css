@@ -24,13 +24,18 @@ body {
 .data {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 .portfolio {
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
+    padding: 20px 20px 2px;
+}
+
+.info {
+    padding: 2px 20px 5px ;
+}
+
+.button {
+    padding: 5px 20px 50px;
 }
 .content {
     background-color: #E9ECEF;
@@ -38,6 +43,7 @@ body {
 
 .header {
     font-size: 56px;
+    margin: 50px 0px 0px;
 }
 
 .information__text {
