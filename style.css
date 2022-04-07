@@ -78,3 +78,21 @@ body {
 }
 
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.our__profile {
+    outline: 2px solid rgba(0, 0, 0, 0.3);
+    margin: 40px 5px 20px 20px;
+    border-radius: 10px;
+}
+
+.statistics {
+    outline: 2px solid rgba(0, 0, 0, 0.3);
+    margin: 40px 20px 20px 5px;
+    border-radius: 10px;
+}
