@@ -4,6 +4,17 @@ body {
 
 .hat {
     background-color: #343A40;
+    
+}
+
+.content__info {
+    width: 70%;
+    /* Ширина слоя в пикселах */
+    margin: 1.5em auto;
+    /* Отступ слева и справа */
+    padding: 20px;
+    /* Поля вокруг текста */
+    text-align: left;
 }
 
 .buttons {
