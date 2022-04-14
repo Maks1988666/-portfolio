@@ -8,12 +8,7 @@ body {
 }
 
 .content__info {
-    width: 70%;
-    /* Ширина слоя в пикселах */
-    margin: 1.5em auto;
-    /* Отступ слева и справа */
-    padding: 20px;
-    /* Поля вокруг текста */
+    padding: 40px;
     text-align: left;
 }
 
@@ -51,6 +46,8 @@ body {
 }
 .content {
     background-color: #E9ECEF;
+    padding: 40px;
+    text-align: left;
 }
 
 .header {
@@ -140,4 +137,41 @@ body {
     padding: 0 24px 12px;
     margin: 0;
     font-size: 16px;
+}
+
+.table {
+    padding: 40px;
+    text-align: left;
+}
+
+.table__options {
+    border:  #DEE2E6 solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.hat__table {
+    border:  #DEE2E6 solid;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0.3em 1em;
+} 
+
+.text__blue {
+    font-size: 16px;
+    border:  #DEE2E6 solid;
+    color: #007BFF;
+    padding: 0.3em 1em;
+}
+
+.number {
+    font-size: 16px;
+    border:  #DEE2E6 solid;
+    padding: 0.3em 1em;
+}
+
+.footer {
+    padding: 40px;
+    text-align: left;
+    background-color: #F5F5F5;
 }
