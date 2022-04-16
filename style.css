@@ -88,20 +88,19 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-template-columns: 2fr 1.5fr 1fr;
+    grid-gap: 40px;
 }
 
 .our__profile {
     outline: 2px solid rgba(0, 0, 0, 0.3);
-    margin: 40px 5% 20px 20px;
     border-radius: 10px;
 }
 
 .statistics {
     outline: 2px solid rgba(0, 0, 0, 0.3);
-    margin: 40px 50% 100px 0px;
     border-radius: 10px;
+    margin-top: 0;
 }
 
 .hat__profile {
@@ -174,4 +173,16 @@ body {
     padding: 40px;
     text-align: left;
     background-color: #F5F5F5;
+}
+
+/* === media === */
+
+@media (max-width: 1000px) {
+    .grid {
+        display: block;
+    }
+
+    .statistics {
+        margin-top: 40px;
+    }
 }
